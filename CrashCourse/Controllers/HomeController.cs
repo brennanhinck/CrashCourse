@@ -8,6 +8,7 @@ namespace CrashCourse.Controllers
 {
     public class HomeController : Controller
     {
+        //returns the index view
         public ActionResult Index()
         {
             return View();
